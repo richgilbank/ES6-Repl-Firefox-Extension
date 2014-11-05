@@ -1,0 +1,10 @@
+{
+  "name": "firefox_es6_repl",
+  "title": "firefox_es6_repl",
+  "id": "jid1-Lksg42vjrOgSYA",
+  "description": "Execute ES6 from your DevTools",
+  "author": "@richgilbank",
+  "license": "MPL 2.0",
+  "version": "0.0.1",
+  "main": "lib/main.js"
+}

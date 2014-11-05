@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Traceur</title>
+
+<link rel="stylesheet" href="codemirror/codemirror.css">
+<link rel="stylesheet" href="codemirror/solarized.css">
+<link rel="stylesheet" href="repl.css">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+</head>
+<body>
+
+<textarea>
+/*
+==========================================================
+Some features coming with ES6 - uncomment to try them out!
+==========================================================
+*/
+
+// Block-level scoping
+// for(let i = 0; i < 10; i++) console.log(i);
+
+// Fat arrow
+// var squared = x => x*x
+// console.log( squared(5) );
+
+</textarea>
+<button>Run it (<span id="combinationKey">&#8984;</span>&#8617;)</button>
+
+<script type="text/javascript" src="../node_modules/traceur/bin/traceur.js"></script>
+<script type="text/javascript" src="repl.js"></script>
+
+<script src="codemirror/codemirror.js"></script>
+<script src="codemirror/matchbrackets.js"></script>
+<script src="codemirror/continuecomment.js"></script>
+<script src="codemirror/comment.js"></script>
+<script src="codemirror/javascript.js"></script>
+<script src="codemirror/closebrackets.js"></script>
+
+</body>
+</html>
